@@ -587,3 +587,109 @@ body {
         padding: 0.8rem;
     }
 }
+
+/* Estilos específicos para la página de albóndigas */
+.special-feature {
+    background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+    color: white;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 4px 6px rgba(238, 90, 36, 0.3);
+}
+
+.feature-icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.special-feature p {
+    margin: 0;
+    font-weight: 500;
+}
+
+.storage-tips {
+    margin-top: 2rem;
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border-left: 4px solid #28a745;
+}
+
+.storage-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.storage-item {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.storage-item h4 {
+    color: #28a745;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.storage-item p {
+    color: #666;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+/* Mejoras para pasos de cocina */
+.instruction-step .step-content h3 {
+    color: #e63946;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .storage-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .special-feature {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+    }
+    
+    .variation-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .storage-item {
+        padding: 0.8rem;
+    }
+    
+    .storage-tips {
+        padding: 1rem;
+    }
+}
+
+/* Efectos especiales para elementos picantes */
+.meta-item:nth-child(4) {
+    background: linear-gradient(135deg, #ff6b6b, #ff8e8e);
+    color: white;
+}
+
+.meta-item:nth-child(4) .meta-icon {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
