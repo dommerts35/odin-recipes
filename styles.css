@@ -479,3 +479,111 @@ body {
         grid-template-columns: 1fr 1fr;
     }
 }
+/* Estilos específicos para la página de galletas */
+.special-note {
+    background: #fff3cd;
+    border: 1px solid #ffeaa7;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.note-icon {
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.special-note p {
+    margin: 0;
+    color: #856404;
+}
+
+.step-tip {
+    background: #e8f4fd;
+    border-left: 4px solid #3498db;
+    padding: 0.8rem;
+    margin-top: 0.8rem;
+    border-radius: 0 4px 4px 0;
+    font-size: 0.9rem;
+}
+
+.step-tip strong {
+    color: #2980b9;
+}
+
+.ingredients-note {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    border-left: 4px solid #6c757d;
+}
+
+.ingredients-note h4 {
+    color: #495057;
+    margin-bottom: 0.5rem;
+}
+
+.ingredients-note p {
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.variations {
+    margin-top: 2rem;
+}
+
+.variation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.variation-item {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.variation-item h4 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.variation-item p {
+    color: #666;
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+/* Mejoras responsive adicionales */
+@media (max-width: 768px) {
+    .variation-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .special-note {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .step-tip {
+        font-size: 0.8rem;
+        padding: 0.6rem;
+    }
+    
+    .ingredients-note {
+        padding: 0.8rem;
+    }
+}
