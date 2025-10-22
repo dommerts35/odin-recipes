@@ -1,40 +1,230 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dirt Cake Recipe</title>
+    <meta name="description" content="Receta fácil de Pastel de Tierra - Un postre divertido y delicioso perfecto para fiestas">
+    <title>Pastel de Tierra - Recetas Odin</title>
+    <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-    <a href="../index.html">Home</a>
-    <h1>Dirt Cake Recipe</h1>
-    <img 
-        src="https://www.allrecipes.com/thmb/lKj_jStHb8KAGea0yEAa4HI-BaQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7255-dirt-cake-ddmfs-3X4-1858-121f5174119245aeb2cbd9cc024dc5c9.jpg"
-        alt="dirt cake"
-        loading="lazy"
-        width="600"
-    >
-    <h2>How To Make Dirt Cake</h2>
-    <p>Easy to follow recipe to make delicious Dirt Cake.</p>
-    <h2>Ingredients</h2>
-    <ul>
-        <li>32 ounces chocolate sandwich cookies with creme filling</li>
-        <li>1 (8 ounce) package cream cheese, softened</li>
-        <li>½ cup butter, softened</li>
-        <li>½ cup confectioners' sugar</li>
-        <li>3 ½ cups milk</li>
-        <li>1 (12 ounce) container frozen whipped topping, thawed</li>
-        <li>2 (3.5 ounce) packages instant vanilla pudding mix</li>
-    </ul>
+    <header class="header">
+        <div class="container">
+            <a href="../index.html" class="logo">🍳 Recetas Odin</a>
+            <nav class="nav">
+                <a href="../index.html#recetas" class="nav-link">Todas las Recetas</a>
+                <a href="../index.html#sobre" class="nav-link">Sobre Nosotros</a>
+            </nav>
+        </div>
+    </header>
 
-    <h2>Steps</h2>
-    <ol>
-        <li>Finely crush chocolate cookies in a food processor; set crumbs aside..</li>
-        <li>Combine cream cheese, butter, and confectioner's sugar in a large bowl; beat with an electric mixer until smooth.</li>
-        <li>Whisk milk, whipped topping, and pudding together in a separate large bowl; fold in cream cheese mixture until well combined.</li>
-        <li>Alternately layer crushed cookies and pudding mixture in a medium flower pot, starting and ending with cookies.</li>
-        <li>Chill dirt cake in the refrigerator until ready to serve; garnish as desired. Enjoy!.</li>
-    </ol>
-    <p>Source from <a href="https://www.allrecipes.com/recipe/7255/dirt-cake-i/" target="_blank" rel="noreferrer">Allrecipes</a></p>
+    <main class="main">
+        <article class="recipe-detail">
+            <div class="container">
+                <!-- Breadcrumb -->
+                <nav class="breadcrumb">
+                    <a href="../index.html">Inicio</a> > 
+                    <a href="../index.html#recetas">Recetas</a> > 
+                    <span>Pastel de Tierra</span>
+                </nav>
+
+                <!-- Header de la receta -->
+                <header class="recipe-header">
+                    <h1 class="recipe-title-main">Pastel de Tierra</h1>
+                    <p class="recipe-intro">Un postre divertido que parece tierra de jardín pero sabe a cielo. Perfecto para fiestas infantiles y reuniones familiares.</p>
+                    
+                    <div class="recipe-meta-grid">
+                        <div class="meta-item">
+                            <span class="meta-icon">⏱️</span>
+                            <div>
+                                <strong>Preparación:</strong>
+                                <span>25 minutos</span>
+                            </div>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-icon">⏳</span>
+                            <div>
+                                <strong>Refrigeración:</strong>
+                                <span>4 horas</span>
+                            </div>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-icon">👥</span>
+                            <div>
+                                <strong>Porciones:</strong>
+                                <span>8-10 personas</span>
+                            </div>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-icon">⭐</span>
+                            <div>
+                                <strong>Dificultad:</strong>
+                                <span>Media</span>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <!-- Imagen principal -->
+                <div class="recipe-hero-image">
+                    <img 
+                        src="https://www.allrecipes.com/thmb/lKj_jStHb8KAGea0yEAa4HI-BaQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7255-dirt-cake-ddmfs-3X4-1858-121f5174119245aeb2cbd9cc024dc5c9.jpg"
+                        alt="Pastel de Tierra decorado con flores y gusanitos de goma"
+                        loading="eager"
+                        class="recipe-image"
+                    >
+                </div>
+
+                <div class="recipe-content-grid">
+                    <!-- Columna de ingredientes -->
+                    <section class="ingredients-section">
+                        <h2 class="section-title">Ingredientes</h2>
+                        
+                        <div class="ingredients-group">
+                            <h3 class="ingredients-subtitle">Para la base de "tierra":</h3>
+                            <ul class="ingredients-list">
+                                <li class="ingredient-item">
+                                    <span class="ingredient-amount">32 oz</span>
+                                    <span class="ingredient-name">Galletas sandwich de chocolate (Oreo)</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="ingredients-group">
+                            <h3 class="ingredients-subtitle">Para el relleno cremoso:</h3>
+                            <ul class="ingredients-list">
+                                <li class="ingredient-item">
+                                    <span class="ingredient-amount">1 paquete (8 oz)</span>
+                                    <span class="ingredient-name">Queso crema, ablandado</span>
+                                </li>
+                                <li class="ingredient-item">
+                                    <span class="ingredient-amount">½ taza</span>
+                                    <span class="ingredient-name">Mantequilla, ablandada</span>
+                                </li>
+                                <li class="ingredient-item">
+                                    <span class="ingredient-amount">½ taza</span>
+                                    <span class="ingredient-name">Azúcar glass</span>
+                                </li>
+                                <li class="ingredient-item">
+                                    <span class="ingredient-amount">3 ½ tazas</span>
+                                    <span class="ingredient-name">Leche fría</span>
+                                </li>
+                                <li class="ingredient-item">
+                                    <span class="ingredient-amount">1 contenedor (12 oz)</span>
+                                    <span class="ingredient-name">Topping de crema batida, descongelado</span>
+                                </li>
+                                <li class="ingredient-item">
+                                    <span class="ingredient-amount">2 paquetes (3.5 oz c/u)</span>
+                                    <span class="ingredient-name">Mezcla para pudín de vainilla instantáneo</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="ingredients-group">
+                            <h3 class="ingredients-subtitle">Para decorar (opcional):</h3>
+                            <ul class="ingredients-list">
+                                <li class="ingredient-item">
+                                    <span class="ingredient-amount">Varitas</span>
+                                    <span class="ingredient-name">Gusanitos de goma</span>
+                                </li>
+                                <li class="ingredient-item">
+                                    <span class="ingredient-amount">Algunas</span>
+                                    <span class="ingredient-name">Flores comestibles</span>
+                                </li>
+                                <li class="ingredient-item">
+                                    <span class="ingredient-amount">1</span>
+                                    <span class="ingredient-name">Pala de juguete pequeña</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!-- Columna de preparación -->
+                    <section class="instructions-section">
+                        <h2 class="section-title">Preparación</h2>
+                        
+                        <ol class="instructions-list">
+                            <li class="instruction-step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h3>Preparar la "tierra"</h3>
+                                    <p>Tritura finamente las galletas de chocolate en un procesador de alimentos hasta que parezcan tierra. Si no tienes procesador, puedes ponerlas en una bolsa zip y triturarlas con un rodillo. Reserva.</p>
+                                </div>
+                            </li>
+                            
+                            <li class="instruction-step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h3>Mezcla cremosa</h3>
+                                    <p>En un tazón grande, combina el queso crema, la mantequilla y el azúcar glass. Bate con una batidora eléctrica hasta que quede suave y cremoso.</p>
+                                </div>
+                            </li>
+                            
+                            <li class="instruction-step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h3>Preparar el pudín</h3>
+                                    <p>En otro tazón grande, mezcla la leche fría, el topping de crema batida y los polvos de pudín instantáneo. Bate hasta que esté bien combinado y comience a espesar.</p>
+                                </div>
+                            </li>
+                            
+                            <li class="instruction-step">
+                                <div class="step-number">4</div>
+                                <div class="step-content">
+                                    <h3>Combinar mezclas</h3>
+                                    <p>Incorpora suavemente la mezcla de queso crema a la mezcla de pudín hasta que todo esté bien integrado.</p>
+                                </div>
+                            </li>
+                            
+                            <li class="instruction-step">
+                                <div class="step-number">5</div>
+                                <div class="step-content">
+                                    <h3>Montar el pastel</h3>
+                                    <p>En una maceta de flores limpia (o un recipiente similar), alterna capas de galletas trituradas y la mezcla de pudín, comenzando y terminando con una capa de galletas.</p>
+                                </div>
+                            </li>
+                            
+                            <li class="instruction-step">
+                                <div class="step-number">6</div>
+                                <div class="step-content">
+                                    <h3>Enfriar y servir</h3>
+                                    <p>Refrigera el pastel de tierra por al menos 4 horas, o preferiblemente toda la noche. Decora con gusanitos de goma, flores comestibles y una pala de juguete antes de servir.</p>
+                                </div>
+                            </li>
+                        </ol>
+
+                        <div class="recipe-tips">
+                            <h3>💡 Consejos del Chef</h3>
+                            <ul>
+                                <li>Para mejor sabor, prepara el pastel con un día de anticipación</li>
+                                <li>Puedes usar una bandeja rectangular y crear un "jardín" completo</li>
+                                <li>Si sirves a niños, asegúrate de que sepan que ¡no es tierra real!</li>
+                                <li>Conserva en refrigeración hasta el momento de servir</li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Nota de fuente -->
+                <footer class="recipe-footer">
+                    <div class="source-note">
+                        <p>Receta adaptada de <a href="https://www.allrecipes.com/recipe/7255/dirt-cake-i/" target="_blank" rel="noopener noreferrer">Allrecipes</a></p>
+                    </div>
+                    
+                    <div class="navigation-links">
+                        <a href="../recipes/cookies.html" class="nav-button prev">← Galletas Black Magic</a>
+                        <a href="../index.html" class="nav-button home">🏠 Todas las Recetas</a>
+                        <a href="../recipes/meatballs.html" class="nav-button next">Albóndigas Red Devil →</a>
+                    </div>
+                </footer>
+            </div>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Recetas Odin. Proyecto educativo de The Odin Project</p>
+        </div>
+    </footer>
 </body>
 </html>
