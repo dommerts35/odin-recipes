@@ -97,6 +97,29 @@ body {
     color: var(--accent-color);
 }
 
+.section-title::before {
+    content: "🎃";
+    margin-right: 0.5rem;
+}
+
+.section-title::after {
+    content: "🕸️";
+    margin-left: 0.5rem;
+}
+
+.recipe-card::before {
+    content: "🕷️";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+
+.recipe-card:hover {
+    box-shadow: 0 8px 15px rgba(255, 140, 0, 0.7);
+}
+
 .recipes-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
