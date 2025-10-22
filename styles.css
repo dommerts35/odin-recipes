@@ -203,21 +203,24 @@ body {
     box-shadow: 0 4px 12px rgba(255, 117, 24, 0.4);
 }
 
-/* Ajustes específicos para las tarjetas de recetas en el index */
+/* Ajustes para las imágenes de las tarjetas (index.html) */
 .recipe-card .recipe-image {
     margin: 0;
     padding: 0;
-    line-height: 0; /* Elimina espacio fantasma debajo de la imagen */
+    overflow: hidden; /* evita que la imagen sobresalga del contenedor */
+    border-bottom: 2px solid var(--primary-color);
+    border-radius: 10px 10px 0 0; /* mantiene el borde redondeado */
+    height: 180px; /* altura fija para uniformidad */
+    display: flex;
 }
 
 .recipe-card .recipe-image img {
     width: 100%;
-    height: auto;       /* ajustar altura automáticamente */
-    max-height: 180px;  /* limitar altura máxima si quieres uniformidad */
-    object-fit: cover;  /* recorta bien si la proporción no coincide */
-    display: block;     /* elimina espacio debajo de la imagen */
-    border-bottom: 2px solid var(--primary-color);
+    height: 100%; /* llena completamente el contenedor */
+    object-fit: cover; /* recorta imagen sin estirarla */
+    display: block; /* elimina espacio extra debajo */
 }
+
 
 .recipe-card .recipe-content {
     padding: 1rem 1.5rem 1.5rem; /* Reducimos el padding superior */
