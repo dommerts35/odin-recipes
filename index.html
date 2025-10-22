@@ -1,16 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin Recipes</title>
+    <meta name="description" content="Deliciosas recetas de Odin - Albóndigas, Galletas y Pastel de Tierra">
+    <title>Recetas Odin - Tu libro de recetas favorito</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ol>
-        <li><a href="./recipes/meatballs.html">Red Devil Cocktail Meatballs Recipe</a></li>
-        <li><a href="./recipes/cookies.html">“Black Magic” Chocolate Chip Cookies Recipe</a></li>
-        <li><a href="./recipes/cake.html">Dirt Cake Recipe</a></li>
-    </ol>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">🍳 Recetas Odin</h1>
+            <nav class="nav">
+                <a href="#recetas" class="nav-link">Recetas</a>
+                <a href="#sobre" class="nav-link">Sobre Nosotros</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h2 class="hero-title">Descubre el Sabor Auténtico</h2>
+                <p class="hero-subtitle">Recetas probadas y aprobadas por la comunidad Odin</p>
+            </div>
+        </section>
+
+        <section id="recetas" class="recipes-section">
+            <div class="container">
+                <h2 class="section-title">Nuestras Recetas Destacadas</h2>
+                <div class="recipes-grid">
+                    <article class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="./images/meatballs.jpg" alt="Albóndigas Cocktail Red Devil" loading="lazy">
+                        </div>
+                        <div class="recipe-content">
+                            <h3 class="recipe-title">Albóndigas Cocktail Red Devil</h3>
+                            <p class="recipe-description">Albóndigas jugosas con una salsa picante y dulce perfectas para fiestas.</p>
+                            <div class="recipe-meta">
+                                <span class="recipe-time">⏱️ 45 min</span>
+                                <span class="recipe-difficulty">⭐ Fácil</span>
+                            </div>
+                            <a href="./recipes/meatballs.html" class="recipe-button">Ver Receta</a>
+                        </div>
+                    </article>
+
+                    <article class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="./images/cookies.jpg" alt="Galletas Black Magic de Chips de Chocolate" loading="lazy">
+                        </div>
+                        <div class="recipe-content">
+                            <h3 class="recipe-title">Galletas "Black Magic"</h3>
+                            <p class="recipe-description">Galletas de chocolate intenso con chips de chocolate, crujientes por fuera y suaves por dentro.</p>
+                            <div class="recipe-meta">
+                                <span class="recipe-time">⏱️ 30 min</span>
+                                <span class="recipe-difficulty">⭐ Fácil</span>
+                            </div>
+                            <a href="./recipes/cookies.html" class="recipe-button">Ver Receta</a>
+                        </div>
+                    </article>
+
+                    <article class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="./images/cake.jpg" alt="Pastel de Tierra con decoración divertida" loading="lazy">
+                        </div>
+                        <div class="recipe-content">
+                            <h3 class="recipe-title">Pastel de Tierra</h3>
+                            <p class="recipe-description">Un postre divertido que parece tierra de jardín pero sabe a cielo.</p>
+                            <div class="recipe-meta">
+                                <span class="recipe-time">⏱️ 25 min + refrigeración</span>
+                                <span class="recipe-difficulty">⭐⭐ Medio</span>
+                            </div>
+                            <a href="./recipes/cake.html" class="recipe-button">Ver Receta</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="about-section">
+            <div class="container">
+                <h2 class="section-title">Sobre Recetas Odin</h2>
+                <p>Proyecto desarrollado como parte de The Odin Project, donde aprendemos desarrollo web creando proyectos reales.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto" class="footer">
+        <div class="container">
+            <p>&copy; 2024 Recetas Odin. Todos los derechos reservados.</p>
+            <p>Proyecto educativo de The Odin Project</p>
+        </div>
+    </footer>
 </body>
 </html>
