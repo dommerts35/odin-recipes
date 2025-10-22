@@ -211,10 +211,11 @@ body {
 }
 
 .recipe-card .recipe-image img {
-    height: 180px; /* Reducimos ligeramente la altura */
     width: 100%;
-    object-fit: cover;
-    display: block; /* Elimina espacio extra debajo de la imagen */
+    height: auto;       /* ajustar altura automáticamente */
+    max-height: 180px;  /* limitar altura máxima si quieres uniformidad */
+    object-fit: cover;  /* recorta bien si la proporción no coincide */
+    display: block;     /* elimina espacio debajo de la imagen */
     border-bottom: 2px solid var(--primary-color);
 }
 
