@@ -1,43 +1,300 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>“Black Magic” Chocolate Chip Cookies Recipe</title>
+    <meta name="description" content="Receta de Galletas Black Magic con chips de chocolate - Un toque misterioso y delicioso con carbón activado">
+    <title>Galletas Black Magic - Recetas Odin</title>
+    <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-    <a href="../index.html">Home</a>
-    <h1>“Black Magic” Chocolate Chip Cookies Recipe</h1>
-    <img 
-        src="https://www.allrecipes.com/thmb/V-bAyrQCY6rOGctCWFsYhfbeXt0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8732777BlackMagicChocolateChipCookiesChefJohn4x3-e1884af6b0e54c8587bf85617991ba75.jpg"
-        alt="black magic chocolate chip cookies"
-        loading="lazy"
-        width="600"
-    >
-    <h2>How To Make “Black Magic” Chocolate Chip Cookies</h2>
-    <p>Easy to follow recipe to make delicious “Black Magic” Chocolate Chip Cookies.</p>
-    <h2>Ingredients</h2>
-    <ul>
-        <li>1 cup unsalted butter, soft</li>
-        <li>1 cup white sugar</li>
-        <li>1/2 cup light brown sugar</li>
-        <li>1 large egg</li>
-        <li>1 tablespoon activated charcoal powder</li>
-        <li>1 1/4 teaspoons vanilla extract</li>
-        <li>2 tablespoons milk</li>
-        <li>1 1/4 teaspoons kosher salt</li>
-        <li>1 teaspoon baking soda</li>
-        <li>2 1/4 cups all purpose flour</li>
-        <li>1 1/2 cups chocolate chips</li>
-    </ul>
-    <h2>Steps</h2>
-    <ol>
-        <li>Beat butter, white sugar, and brown sugar together with an electric mixer until creamy. and sugars together. Add egg, charcoal, vanilla, milk, salt, and baking soda, and beat until thoroughly combined.</li>
-        <li>Add flour; mix in with a spatula just until flour nearly disappears. Add chocolate chips and mix evenly into the dough. Wrap and chill dough for 1 hour.</li>
-        <li>Preheat the oven to 375 degrees F (190 degrees C). Line a baking sheet with parchment.</li>
-        <li>Scoop or spoon just over 1 tablespoon dough per cookie, and transfer to the prepared baking sheet. These cookies will spread; portioning 8 cookies per pan is recommended. </li>
-        <li>Bake in the preheated oven for 12 to 13 minutes (see Chef’s Note). Cool completely before serving.</li>
-    </ol>
-    <p>Source from <a href="https://www.allrecipes.com/black-magic-chocolate-chip-cookies-recipe-8732777" target="_blank" rel="noreferrer">Allrecipes</a></p>
+    <header class="header">
+        <div class="container">
+            <a href="../index.html" class="logo">🍳 Recetas Odin</a>
+            <nav class="nav">
+                <a href="../index.html#recetas" class="nav-link">Todas las Recetas</a>
+                <a href="../index.html#sobre" class="nav-link">Sobre Nosotros</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <article class="recipe-detail">
+            <div class="container">
+                <!-- Breadcrumb -->
+                <nav class="breadcrumb">
+                    <a href="../index.html">Inicio</a> > 
+                    <a href="../index.html#recetas">Recetas</a> > 
+                    <span>Galletas Black Magic</span>
+                </nav>
+
+                <!-- Header de la receta -->
+                <header class="recipe-header">
+                    <h1 class="recipe-title-main">Galletas "Black Magic" con Chips de Chocolate</h1>
+                    <p class="recipe-intro">Galletas misteriosamente oscuras con un intenso sabor a chocolate y un toque mágico. Perfectas para ocasiones especiales y amantes del chocolate.</p>
+                    
+                    <div class="recipe-meta-grid">
+                        <div class="meta-item">
+                            <span class="meta-icon">⏱️</span>
+                            <div>
+                                <strong>Preparación:</strong>
+                                <span>20 minutos</span>
+                            </div>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-icon">⏳</span>
+                            <div>
+                                <strong>Enfriamiento:</strong>
+                                <span>1 hora</span>
+                            </div>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-icon">🍪</span>
+                            <div>
+                                <strong>Rendimiento:</strong>
+                                <span>24 galletas</span>
+                            </div>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-icon">⭐</span>
+                            <div>
+                                <strong>Dificultad:</strong>
+                                <span>Fácil</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="special-note">
+                        <span class="note-icon">⚠️</span>
+                        <p><strong>Nota importante:</strong> El carbón activado puede interferir con medicamentos. Consulta con tu médico antes de consumir.</p>
+                    </div>
+                </header>
+
+                <!-- Imagen principal -->
+                <div class="recipe-hero-image">
+                    <img 
+                        src="https://www.allrecipes.com/thmb/V-bAyrQCY6rOGctCWFsYhfbeXt0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8732777BlackMagicChocolateChipCookiesChefJohn4x3-e1884af6b0e54c8587bf85617991ba75.jpg"
+                        alt="Galletas Black Magic de chocolate con chips de chocolate, oscuras y deliciosas"
+                        loading="eager"
+                        class="recipe-image"
+                    >
+                </div>
+
+                <div class="recipe-content-grid">
+                    <!-- Columna de ingredientes -->
+                    <section class="ingredients-section">
+                        <h2 class="section-title">Ingredientes</h2>
+                        
+                        <div class="ingredients-group">
+                            <h3 class="ingredients-subtitle">Base de galletas:</h3>
+                            <ul class="ingredients-list">
+                                <li class="ingredient-item">
+                                    <span class="ingredient-amount">1 taza</span>
+                                    <span class="ingredient-name">Mantequilla sin sal, ablandada</span>
+                                </li>
+                                <li class="ingredient-item">
+                                    <span class="ingredient-amount">1 taza</span>
+                                    <span class="ingredient-name">Azúcar blanca</span>
+                                </li>
+                                <li class="ingredient-item">
+                                    <span class="ingredient-amount">½ taza</span>
+                                    <span class="ingredient-name">Azúcar moreno claro</span>
+                                </li>
+                                <li class="ingredient-item">
+                                    <span class="ingredient-amount">1 unidad</span>
+                                    <span class="ingredient-name">Huevo grande</span>
+                                </li>
+                                <li class="ingredient-item">
+                                    <span class="ingredient-amount">1 cucharada</span>
+                                    <span class="ingredient-name">Carbón activado en polvo</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="ingredients-group">
+                            <h3 class="ingredients-subtitle">Ingredientes húmedos:</h3>
+                            <ul class="ingredients-list">
+                                <li class="ingredient-item">
+                                    <span class="ingredient-amount">1¼ cucharadita</span>
+                                    <span class="ingredient-name">Extracto de vainilla</span>
+                                </li>
+                                <li class="ingredient-item">
+                                    <span class="ingredient-amount">2 cucharadas</span>
+                                    <span class="ingredient-name">Leche</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="ingredients-group">
+                            <h3 class="ingredients-subtitle">Ingredientes secos:</h3>
+                            <ul class="ingredients-list">
+                                <li class="ingredient-item">
+                                    <span class="ingredient-amount">1¼ cucharadita</span>
+                                    <span class="ingredient-name">Sal kosher</span>
+                                </li>
+                                <li class="ingredient-item">
+                                    <span class="ingredient-amount">1 cucharadita</span>
+                                    <span class="ingredient-name">Bicarbonato de sodio</span>
+                                </li>
+                                <li class="ingredient-item">
+                                    <span class="ingredient-amount">2¼ tazas</span>
+                                    <span class="ingredient-name">Harina de trigo todo uso</span>
+                                </li>
+                                <li class="ingredient-item">
+                                    <span class="ingredient-amount">1½ tazas</span>
+                                    <span class="ingredient-name">Chips de chocolate</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="ingredients-note">
+                            <h4>💡 Sustituciones:</h4>
+                            <p>Puedes omitir el carbón activado para galletas tradicionales, aunque perderán el color negro característico.</p>
+                        </div>
+                    </section>
+
+                    <!-- Columna de preparación -->
+                    <section class="instructions-section">
+                        <h2 class="section-title">Preparación</h2>
+                        
+                        <ol class="instructions-list">
+                            <li class="instruction-step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h3>Cremar mantequilla y azúcares</h3>
+                                    <p>En un tazón grande, bate la mantequilla ablandada con el azúcar blanca y el azúcar moreno usando una batidora eléctrica. Bate durante 2-3 minutos hasta que la mezcla esté cremosa y pálida.</p>
+                                    <div class="step-tip">
+                                        <strong>Consejo:</strong> Asegúrate de que la mantequilla esté a temperatura ambiente para una mejor cremosidad.
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li class="instruction-step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h3>Agregar ingredientes húmedos</h3>
+                                    <p>Agrega el huevo, el carbón activado en polvo, el extracto de vainilla, la leche, la sal kosher y el bicarbonato de sodio. Bate hasta que todos los ingredientes estén completamente incorporados y la mezcla sea uniforme.</p>
+                                    <div class="step-tip">
+                                        <strong>Nota:</strong> El carbón activado puede manchar, usa utensilios que no te importe teñir.
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li class="instruction-step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h3>Incorporar harina y chips</h3>
+                                    <p>Agrega la harina y mezcla con una espátula justo hasta que la harina casi desaparezca. No sobremezcles. Agrega los chips de chocolate y distribúyelos uniformemente en la masa.</p>
+                                    <div class="step-tip">
+                                        <strong>Técnica:</strong> La sobremezcla desarrolla el gluten y hace las galletas duras.
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li class="instruction-step">
+                                <div class="step-number">4</div>
+                                <div class="step-content">
+                                    <h3>Enfriar la masa</h3>
+                                    <p>Envuelve la masa en plástico o colócala en un recipiente hermético. Refrigera durante al menos 1 hora. Esto ayuda a que los sabores se desarrollen y previene que las galletas se extiendan demasiado al hornear.</p>
+                                    <div class="step-tip">
+                                        <strong>Opción:</strong> Puedes refrigerar hasta 72 horas para un sabor más intenso.
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li class="instruction-step">
+                                <div class="step-number">5</div>
+                                <div class="step-content">
+                                    <h3>Precalentar y preparar</h3>
+                                    <p>Precalienta el horno a 375°F (190°C). Forra una bandeja para hornear con papel pergamino. Esto evita que las galletas se peguen y facilita la limpieza.</p>
+                                </div>
+                            </li>
+                            
+                            <li class="instruction-step">
+                                <div class="step-number">6</div>
+                                <div class="step-content">
+                                    <h3>Formar las galletas</h3>
+                                    <p>Usa una cuchara para helado o una cuchara medidora para porcionar aproximadamente 1 cucharada de masa por galleta. Coloca 8 galletas por bandeja, dejando espacio entre ellas ya que se extenderán durante el horneado.</p>
+                                    <div class="step-tip">
+                                        <strong>Uniformidad:</strong> Usar una cuchara para helado garantiza galletas del mismo tamaño.
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li class="instruction-step">
+                                <div class="step-number">7</div>
+                                <div class="step-content">
+                                    <h3>Hornear</h3>
+                                    <p>Hornea en el horno precalentado durante 12-13 minutos, o hasta que los bordes estén firmes pero los centros aún parezcan ligeramente blandos. Las galletas continuarán cocinándose fuera del horno.</p>
+                                    <div class="step-tip">
+                                        <strong>Punto perfecto:</strong> Para galletas más crujientes, hornea 1-2 minutos adicionales.
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li class="instruction-step">
+                                <div class="step-number">8</div>
+                                <div class="step-content">
+                                    <h3>Enfriar y servir</h3>
+                                    <p>Deja enfriar las galletas en la bandeja durante 5 minutos antes de transferirlas a una rejilla para que se enfríen completamente. Sirve una vez que estén a temperatura ambiente.</p>
+                                    <div class="step-tip">
+                                        <strong>Almacenamiento:</strong> Guarda en un recipiente hermético hasta por 1 semana.
+                                    </div>
+                                </div>
+                            </li>
+                        </ol>
+
+                        <div class="recipe-tips">
+                            <h3>🎯 Secretos para Galletas Perfectas</h3>
+                            <ul>
+                                <li><strong>Mantequilla a temperatura ambiente:</strong> Debe estar blanda pero no derretida</li>
+                                <li><strong>No sobrehornear:</strong> Las galletas deben verse ligeramente blandas al salir del horno</li>
+                                <li><strong>Espacio suficiente:</strong> Las galletas se extienden, deja al menos 5 cm entre ellas</li>
+                                <li><strong>Hornea en lotes:</strong> Es mejor que amontonar las galletas en una bandeja</li>
+                                <li><strong>Carbón activado:</strong> Asegúrate de usar grado alimenticio</li>
+                            </ul>
+                        </div>
+
+                        <div class="variations">
+                            <h3>✨ Variaciones Creativas</h3>
+                            <div class="variation-grid">
+                                <div class="variation-item">
+                                    <h4>Galletas Doble Chocolate</h4>
+                                    <p>Reemplaza ¼ taza de harina por cacao en polvo sin azúcar</p>
+                                </div>
+                                <div class="variation-item">
+                                    <h4>Con Nueces</h4>
+                                    <p>Agrega ½ taza de nueces picadas junto con los chips</p>
+                                </div>
+                                <div class="variation-item">
+                                    <h4>Sal Marita</h4>
+                                    <p>Espolvorea flor de sal sobre las galletas antes de hornear</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Nota de fuente -->
+                <footer class="recipe-footer">
+                    <div class="source-note">
+                        <p>Receta adaptada de <a href="https://www.allrecipes.com/black-magic-chocolate-chip-cookies-recipe-8732777" target="_blank" rel="noopener noreferrer">Allrecipes</a></p>
+                    </div>
+                    
+                    <div class="navigation-links">
+                        <a href="../recipes/cake.html" class="nav-button prev">← Pastel de Tierra</a>
+                        <a href="../index.html" class="nav-button home">🏠 Todas las Recetas</a>
+                        <a href="../recipes/meatballs.html" class="nav-button next">Albóndigas Red Devil →</a>
+                    </div>
+                </footer>
+            </div>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Recetas Odin. Proyecto educativo de The Odin Project</p>
+        </div>
+    </footer>
 </body>
 </html>
